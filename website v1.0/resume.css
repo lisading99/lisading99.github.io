@@ -1,0 +1,108 @@
+@import url('https://use.fontawesome.com/releases/v5.0.9/css/all.css');
+
+body {
+    margin: 0;
+    position: relative;
+  }
+  
+  .gradient-nav {
+    overflow: hidden;
+    background:linear-gradient(to right, #fd6b7f, #fab8c0);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+  }
+  
+  .gradient-nav ul {
+   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+  }
+  .gradient-nav a {
+    float: left;
+    display: block;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .gradient-nav .active, .gradient-nav a:hover {
+    background-color: white;
+    color: #ee9ca7;
+  }
+  
+  .gradient-nav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .gradient-nav a {display: none;}
+    .gradient-nav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .gradient-nav.responsive {position: relative;}
+    .gradient-nav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .gradient-nav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .topnav.responsive {float: none;}
+    .topnav.responsive {position: relative;}
+    .topnav.responsive {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+    iframe {
+      display: none;
+    }
+    .download-container {
+      position: relative;
+      right: 250px;
+    }
+  }
+
+  iframe {
+      position: relative;
+      top: 200px;
+      margin-bottom: 100px;
+      left: 300px;
+      
+  }
+
+  button {
+      border-style: none;
+      padding: 10px 10px 10px 10px;
+      background:linear-gradient(to right, #fd6b7f, #fab8c0);
+      border-radius: 5px;
+      cursor: pointer;
+  }
+
+  #resume-download {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+  }
+  .download-container {
+      top: 130px;
+      position: relative;
+      margin-left: 300px;
+  }
