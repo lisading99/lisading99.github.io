@@ -1,0 +1,120 @@
+@import url('https://use.fontawesome.com/releases/v5.0.9/css/all.css');
+  
+  #navigation {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600; 
+    margin-top: 5%;
+  }
+
+  #navigation li {
+    list-style-type: none;
+  }
+
+  #navigation a {
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+  }
+
+  #navigation a:hover {
+    text-decoration: none;
+    color: rgb(97, 96, 96);
+  }
+
+  .text-font {
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(59, 59, 59);
+  }
+
+  #about-section {
+    margin-top: 5%;
+  }
+
+  #about-section h1, h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: rgb(59, 59, 59); 
+  }
+
+  #about-section #hand {
+    animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate(  0.0deg) }
+   10% { transform: rotate(-10.0deg) }
+   20% { transform: rotate( 12.0deg) }
+   30% { transform: rotate(-10.0deg) }
+   40% { transform: rotate(  9.0deg) }
+   50% { transform: rotate(  0.0deg) }
+  100% { transform: rotate(  0.0deg) }
+}
+
+#projects-deck {
+  margin: 0% 0% 0% 0%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.card-text, .card-title {
+  color: white;
+}
+
+#coronavirus-project {
+  background: #00cc0a;
+  border-style: none;
+}
+
+#CSCB20-project {
+  background: rgb(0, 162, 255);
+  border-style: none;
+}
+
+#new-project {
+  background: #651FFF;
+  border-style: none;
+}
+#projects-section, #resume-section, #contact-section {
+  margin-top: 5%;
+}
+
+.badge {
+  background-color: rgb(255, 255, 255);
+  color: rgb(59, 59, 59);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 8pt;
+  padding: 10px;
+}
+
+.card-text {
+  margin-top: 5%;
+}
+
+.download-btn {
+  border-radius: 5px;
+  padding: 10px;
+  border-style: none;
+  background: #651FFF;
+  color: white;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 12pt;
+}
+
+#contact-section {
+  margin-bottom: 10%;
+}
+
+.fa-envelope {
+  color: rgb(0, 162, 255);
+}
+
+.fa-linkedin {
+  color: #00cc0a;
+}

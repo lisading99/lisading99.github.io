@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Lisa Ding </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!--link to main stylesheet-->
+   <link rel="stylesheet" href="../stylesheets/layout.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:700" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <!-- <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  /> -->
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+      
+      <!-- <div class = "gradient-nav" id = "gradient-nav">
+          <ul class = "menu" id = "menu">
+            <li><a href="#home" class = "btn active">Home</a></li>
+            <li><a href="#projects" class = "btn">Projects</a></li>
+        <li><a href="#news" class = "btn">Resume</a></li>
+            <li><a href="#contact" class = "btn">Contact</a></li>
+            <li><a href="#about" class = "btn">About</a></li>
+            <a href="javascript:void(0)" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </ul>
+      </div>
+      {% block content %}
+
+      {% endblock %} -->
+      <div class="container" id = "navigation">
+        <div class="row">
+          <div class="col" data-aos="slide-up">
+            <li><a href="#about-section">About Me</a></li>
+          </div>
+          <div class="col" data-aos="slide-up">
+            <li><a href="#projects-section">Projects</a></li>
+          </div>
+          <div class="col" data-aos="slide-up">
+            <li><a href="#resume-section">Resume</a></li>
+          </div>
+          <div class="col" data-aos="slide-up">
+            <li><a href="#contact-section">Contact Me</a></li>
+          </div>
+        </div>
+      </div>
+
+      <div class="container" id="about-section">
+        <div class = "col">
+          <div class = "row" data-aos="slide-up">
+            <h1> Hi there! </h1>
+          </div>
+          <div class = "row" data-aos = "slide-up">
+            <h3> Nice to meet you, I'm Lisa <h3 id="hand"> 👋🏻</h3> </h3>
+          </div>
+          <div class = "row text-font" data-aos="slide-up">
+            <p> I am currently studying Computer Science at the University
+              of Toronto.
+            </p>
+            <p> I enjoy web and mobile development and try to create
+              side projects during my spare time. Machine learning and A.I. also
+              interest me and is something I would look into from time to time. 
+              Aside from my interest in learning more tech, I believe that tech 
+              is an amazing platform where I can leverage it in making a 
+              difference in the world. 
+            </p>
+
+            <p> Other interests of mine include: UX/UI design, reading (currently reading 
+              Homodeus), hiking, and watching mysteries and thrillers.
+            </p>
+
+            <p> Feel free to email me at ding.lisa@hotmail.com if 
+              you have any questions, inqueries, or want to chat! 🙂</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class = "container" id="projects-section">
+        <div class = "col">
+        <div class = "row">
+          <h3> Projects </h3>
+        </div>
+
+        <div class ="row">
+          <div class = "card-deck" id= "projects-deck">
+            <div class = "card" id = "coronavirus-project" data-aos="slide-up">
+              <div class="card-body">
+                <h5 class="card-title"> Coronavirus app </h5>
+                <a href= "https://github.com/lisading99/coronavirus-app"><span class="badge badge-pill"><i class="devicon-github-plain-wordmark colored"></i> Github </span></a>
+                <p class="card-text text-font">Coronavirus app that returns confirmed, death, and recovered cases for given country or province
+                  by utilizing coronavirus APIs. 
+                  The data will also be shown in pie chart and bar graph. 
+                  There is also the functionality of setting notifications to receive coronavirus results for a 
+                  given country or province everyday at a given set time. </p>
+                <span class="badge badge-pill"><i class="devicon-android-plain"></i> Android </span>
+              </div>
+            </div>
+    
+            <div class = "card" id ="CSCB20-project" data-aos="slide-up">
+              <div class="card-body">
+                <h5 class="card-title"> CSCB20 website </h5>
+                <a href= "wwww.lisading.ca/cscb20-website/index.html"><span class="badge badge-pill"> Demo (static) </span></a>
+                <p class="card-text text-font">Designed and developed a webiste for the CSCB20 course using HTML, CSS, Javascript, Python(Flask), SQL
+                  while applying my knowledge in user experience and user interface to ensure its responsiveness and user-appeal. </p>
+                  
+                  <span class = "badge badge-pill"><i class="devicon-html5-plain-wordmark"></i> HTML </span>
+                  <span class = "badge badge-pill"><i class="devicon-css3-plain-wordmark"></i> CSS </span>
+                  <span class = "badge badge-pill"><i class="devicon-javascript-plain"></i> JS </span>
+                  <span class = "badge badge-pill"><i class="devicon-python-plain-wordmark"></i> Python </span>
+              </div>
+            </div>
+    
+            <div class = "card" id = "new-project" data-aos="slide-up">
+              <div class="card-body">
+                <h5 class="card-title"> Currently working on a new project! </h5>
+                <p class="card-text text-font">Content will be updated when I have something to show 🙂</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <div class = "container" id="resume-section">
+        <div class = "col">
+          <div class = "row" data-aos="slide-up">
+            <h3>Resume</h3>
+          </div>
+          <div class = "row text-font" data-aos="slide-up">
+            <p>In my past internships, I had the chance to work with 
+              SQL, VBA scripting, android, iOS, and web development. 
+              I also have experience with pair programming, test-driven development,
+              and agile methodologies.
+
+            </p>
+            <p>Click on the button below to download a pdf of my resume:</p>
+          </div>
+          <div class = "row" data-aos="slide-up">
+            <a href = "https://docs.google.com/uc?export=download&id=12Qy8Yld_sP8soDk08L4WUigJmRo7wwfy"> <button class = "download-btn"> Download pdf </button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class = "container" id = "contact-section">
+        <div class = "col">
+          <div class = "row" data-aos="slide-up">
+            <h3> Contact me </h3>
+          </div>
+          <div class = "row text-font" data-aos="slide-up">
+            <p> <i class="fas fa-envelope"></i> ding.lisa@hotmail.com </p>
+           
+          </div>
+          <div class = "row text-font" data-aos="slide-up">
+            <p> <i class="fab fa-linkedin"></i> www.linkedin.com/in/lisa-ding </p>
+          </div>
+        </div>
+      </div>
+
+      <div class = "container" id="footer">
+        <div class = "col">
+          <div class = "row justify-content-center text-font" id = "footer">
+            <footer> Made with ❤️ by Lisa Ding </footer>
+          </div>
+        </div>
+         </div>
+     
+      
+  <!-- <footer>
+            <center>
+                    <p id = "made-for">
+                      Made with </p> <div class="redheart">&hearts;</div> <p id = "name">by Lisa Ding</p>
+                 </center>
+    </footer> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
+      <!-- <script src = "../scripts/layout.js"></script> -->
+    </body>
+    </html>
+
+  
